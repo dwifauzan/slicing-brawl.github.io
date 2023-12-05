@@ -1,0 +1,423 @@
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* DM Sans font*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto:wght@500&display=swap');
+
+:root{
+    /* font */
+    --font-roboto: font-family: 'Roboto', sans-serif;
+    --font-DmSans: font-family: 'DM Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.custom-container{
+    background-color: #ffffff;
+    height:8vh;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1em;
+    cursor: pointer;
+    font-family: var(--font-DmSans);
+}
+
+/* home css */
+.custom-container-home{
+    background-color: #E0F4FF;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15vh;
+}
+
+.headText{
+    font-family: var(--font-roboto);
+    font-size: 5.5em;
+}
+
+.Textp{
+    width: 75%;
+    font-size: 1.3em;
+}
+
+.row-home{
+    padding-top: 16vh;
+}
+
+/* button home */
+button{
+    width: 220px;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+
+    background-color: #0079FF;
+}
+
+.button-row{
+    margin-left: 4em;
+}
+
+/* section 1 */
+.custom-section1{
+    background-color: #FFC436;
+    width: 100%;
+    height: 25vh;
+}
+
+.row-section1{
+    padding-top: 7vh;
+}
+
+.text-section1{
+    margin-left: 2em;
+    text-transform: capitalize;
+}
+
+h3{
+    font-weight: bold;
+    font-family: var(--font-roboto);
+
+}
+
+.ptext-section1{
+    text-align: start;
+    font-size: 1.2em;
+}
+
+/* section 2 */
+.custom-section2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 14vh;
+}
+
+.wrapper-section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 17vh;
+}
+
+.h2-section2{
+    font-family: var(--font-roboto);
+    font-weight: bolder;
+}
+
+.active-button{
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, .3);
+
+    font-weight: bold;
+}
+
+.custom-container-card{
+    padding-top: 10vh;
+}
+
+.card-card{
+    width: 20rem;
+    background-color: #f7f7f7;
+    margin: 5px;
+}
+
+.gambar img{
+    width: 100%;
+}
+
+.card-title{
+    padding: 1vh;
+}
+
+.text{
+    font-family: var(--font-roboto);
+    font-size: 1.5em;
+}
+
+.row-icons{
+    display: flex;
+    column-gap: 3vh;
+}
+
+.icons-card-section2{
+    margin-right: 7px;
+}
+
+/* custom-section 3 */
+.custom-section3{
+    background-color: #FFEFE8;
+    width: 100%;
+    height: 40vh;
+}
+
+.card-3{
+    padding-top: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-text{
+    width: 50%;
+    margin-left: 13vh;
+}
+
+.h1-text{
+    word-spacing: 5px;
+    font-weight: bold;
+    font-family: var(--font-DmSans);
+}
+
+button{
+    text-align: start;
+    color: white;
+}
+
+/* section 4 */
+.custom-section4{
+    width: 100%;
+    height: auto;
+}
+
+.opening-text{
+    padding-top: 15vh;
+    text-align: center;
+    padding-bottom: 7vh;
+}
+
+.col-card4{
+    background-color: white;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, .1);
+    width: 19rem;
+    height: 13vh;
+    border-radius: 1em;
+
+    display: flex;
+    align-items: center;
+    gap: 1.3em;
+    margin: 1vh;
+}
+
+.image{
+    background-color: #E0F4FF;
+    border-radius: 10em;
+    padding: 2vh;
+    justify-content: start;
+}
+
+.text-p{
+    font-size: 1.8em;
+}
+
+.close{
+    text-align: center;
+    padding-top: 7vh;
+    padding-bottom: 12vh;
+}
+
+.close a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--font-DmSans);
+}
+
+.card-center{
+    background-color: #F1EAFF;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+}
+
+.content-p{
+    width: 35%;
+}
+
+.h1-content-course{
+    font-family: var(--font-roboto);
+    font-weight: bold;
+    word-spacing: 5px;
+    font-size: 3em;
+}
+
+.p-content-course{
+    font-size: 1.3em;
+    font-family: var(--font-DmSans);
+}
+
+.btn{
+    width: 220px;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: var(--font-DmSans);
+    font-weight: bold;
+
+    background-color: #0079FF;
+}
+
+.event{
+    text-align: center;
+    padding-top: 13vh;
+    padding-bottom: 5vh;
+}
+
+.event-h1{
+    font-family: var(--font-roboto);
+    font-weight: bold;
+}
+
+.row-event{
+    display: flex;
+}
+
+.card-event{
+    flex-direction: column;
+}
+
+.text1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.bord-p{
+    border-right: 1px solid black;
+    
+}
+
+.text21{
+    font-size: 2em;
+    color: #0079FF;
+
+    padding-right: 3px;
+    border-right: 1px solid black;
+}
+
+.textlocat{
+    text-transform: capitalize;
+}
+
+.title-text{
+    width: 95%;
+}
+
+.title-text h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.image-event{
+    width: 90%;  
+}
+
+.icons-event{
+    padding-right: 5px;
+}
+
+/* footer */
+.footer{
+    margin-top: 17vh;
+    background-color: #192655;
+    width: 100%;
+    height: auto;
+}
+
+.footer-row{
+    padding-top: 10vh;
+    color: white;
+}
+
+.col-title-footer{
+    padding-top: 7vh;
+    width: 67%;
+}
+
+.col-title-footer p{
+    font-size: 1em;
+    font-family: var(--font-DmSans);
+}
+
+.icon{
+    padding-top: 2vh;
+}
+
+.icons{
+    margin: 1vh;
+}
+
+.head{
+    font-family: var(--font-DmSans);
+    font-size: 1.4em;
+}
+
+.text-footer{
+    padding-top: 2vh;
+}
+
+.text-footer p{
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.appstore{
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    width: 65%;
+}
+
+.playstore{
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    width: 65%;
+}
+
+.body-footer{
+    border-top: 1px solid white;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-left{
+    display: flex;
+}
+
+.text-left p{
+    margin: 1vh;
+    color: white;
+    text-transform: capitalize;
+}
+
+.text-right{
+    color: white;
+    font-family: var(--font-DmSans);
+}
